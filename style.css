@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ body{
+    background-color: #5daddb;
+ }
+header{
+    margin-top: 20px;
+    
+    background-color: rgba(255, 255, 255, 0.658);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 20px;
+   
+    justify-content: space-between;
+
+}
+
+ a{
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-decoration: none;
+    
+    font-size: 20px;
+    font-weight: bolder;
+    
+ }
+
+ .central{
+   color: rgb(73, 37, 141);
+
+   font-weight: bolder;
+   text-transform: uppercase;
+   
+ }
+ a:hover{
+   background-color: rgba(111, 48, 163, 0.349);
+   background-image: linear-gradient(to top, rgba(60, 12, 100, 0), rgba(106, 24, 139, 0));
+   border-radius: 20px;
+   
+   color: white
+ }
+ .work{
+      margin-top: 300px;
+      color: white;
+      font-size: 67px;
+ }
+ section.imagem{
+    margin-top: -20px;
+    padding: 40vh;
+    background-image: url(dimitri-iakymuk-mCR10j_B6sM-unsplash.jpg);
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+
+ }
+ section.imagem{
+   color: white;
+   font-size: 200%;
+   font-weight: bolder;
+ }
+
+ section p{
+    margin: 40px;
+    /* text-shadow:1px 8px 11px black ; */
+    text-align: center;
+ }
+
+ .p01{
+    text-align: center;
+ }
+
+.block{
+    display: flex;
+    padding: 10px;
+    margin: auto;
+    padding: 30px;
+
+ }
+ .bl1,.bl2,.bl3 {
+    height: 241px;
+    width: 300px;
+    padding: 10px;
+     margin: auto;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.596);
+    border-radius: 50px;
+    color: rgb(138, 87, 187);
+ }
+
+ .bl3t{
+  
+   text-align: center;
+   font-size:15px ;
+ }
+
+
+ h1{
+    text-align: center;
+    margin: 10px;
+ }
+
+ .hire{
+   width: 80%;
+   height: 700px; 
+   background-color: rgba(255, 255, 255, 0.671);
+   margin: auto;
+ }
+
+ .hire >p {
+   width: 300px;
+   height: 600px;
+   display: flex;
+   display: block;
+   text-align: justify;
+   padding-top: 20px;
+   padding-left: 650px;
+ }
+
+ .hire >h1{
+   padding-top: 60px;
+   padding-left:700px ;
+ }
