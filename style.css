@@ -103,6 +103,7 @@ header{
     padding: 10px;
     margin: auto;
     padding: 30px;
+    margin-bottom: 100px;
 
  }
  .bl1,.bl2,.bl3 {
@@ -128,34 +129,52 @@ header{
     margin: 10px;
  }
 
- .hire{
-   width: 80%;
-   height: 700px; 
-   background-color: rgba(255, 255, 255, 0.671);
-   margin: auto;
-   background-image: url(imagens/daiga-ellaby-uooMllXe6gE-unsplash\ \(1\).png);
-   background-repeat: no-repeat;
-   background-size: 400px;
-   background-position:left center ;
 
- }
+    /* margin: auto;
+    height: 500px;
+    width: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    flex-wrap: wrap;
+    justify-items:center ;
+    align-items:flex-start ;
+    justify-content:end ;
+    flex-direction: row-reverse ;
+    background-color:white; */
 
- .hire >p {
-   width: 300px;
-   height: 700px;
-   display: flex;
-   margin: 30px;
-   
-   text-align: justify;
-   padding-top: 20px;
-   padding-left: 650px;
+.container{
+
+    margin: auto;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.699);
+    width: 800px;
+    height: 900px;
+
+    
+    
+}
+
+.dois{
+    margin: 30px;
+    padding-top: 20px;
   
+    width:300px ;
+    height: 300px;
    
-  
-   
- }
+}
 
- .hire >h1{
-   padding-top: 60px;
-   padding-left:700px;
+.img01{
+    width:300px;
+    height: 478px;
+    margin-top: 50px;
+     margin:  20px;
+     padding: 27px;
+     padding-top: 255px;
+}
+
+.ch1{
+    display:inline-block;
+    flex-direction: column;
+    margin-bottom: 30px;
 }
