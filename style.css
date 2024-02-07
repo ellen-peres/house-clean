@@ -164,7 +164,7 @@ h1{
 .all-hire{
    background-color: rgba(245, 255, 255, 0.753);
    margin: auto;
-   width: 84vw;
+   width: 700px;
   height: auto;
   flex-wrap: wrap
    
@@ -198,6 +198,9 @@ img{
    margin-left:20%;
    width: 450px;
    
+}
+.cozinham{
+   width: 200vw;
 }
 .h1flores{
  margin: auto;
