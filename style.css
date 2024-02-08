@@ -198,6 +198,7 @@ img{
  margin: auto;
    text-align: center;
    align-items: center;
+   font-size: 5vw;
    font-family: var(--principal);
 
   
@@ -247,9 +248,9 @@ text-align: center;
 }
 
 .happy{
-   background-color: bisque;
+  
    display: flex;
-   margin: 2%;
+ 
    flex-wrap: wrap;
    margin: auto;
    
