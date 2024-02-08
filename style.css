@@ -17,7 +17,10 @@
 padding: 0%;
 margin: 0%;
 box-sizing: border-box;   
-font-family: var(--tudo)}
+font-family: var(--tudo);
+overflow-x: hidden;
+}
+
 body{
    background-color: #49a8ec;
    overflow-x: hidden;
