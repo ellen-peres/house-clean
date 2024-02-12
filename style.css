@@ -39,6 +39,8 @@ header > a{
    margin: 4%;
    text-decoration: none;
    box-sizing: border-box;
+   font-size: 20px;
+   font-weight: 50px;
 }
 
 header >:hover{
@@ -169,11 +171,9 @@ h1{
   flex-wrap: wrap;
   display: flex}
 
-  .hire-us{
-   
-   
-}
+
 .picture{
+   
    margin: auto;
 }
 
@@ -190,6 +190,11 @@ h1{
    color: #49466F;
    font-family: var(--principal);
    font-weight: 50%;
+}
+
+.flores-margin{
+   margin: auto;
+   margin-top: 8%;
 }
 
 .h1flores{
@@ -384,3 +389,4 @@ text-align: center;
    width: 200px;
    height: 200px;
 }
+
