@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap');
+          
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+:root{
+--principal:'Oleo Script Swash Caps', system-ui;
+--tudo:'Roboto', sans-serif;
+
+}
+*{
+padding: 0%;
+margin: 0%;
+box-sizing: border-box;   
+font-family: var(--tudo);
+
+}
+
+body{
+ 
+   overflow-x: hidden;
+   background-color:#5299e3;
+  
+}
+
+
+.fundo{
+  width: 700px;
+  height: auto;
+   background-color: #49466F;
+
+}
+
+header{
+   padding: 4%;
+   text-align: center;
+   margin-top: 3%;
+   width: 100vw;
+  align-items: center;
+   background-color: rgba(245, 248, 255, 0.692);
+}
+
+header > a{
+   margin: 4%;
+   text-decoration: none;
+   box-sizing: border-box;
+   font-size: 20px;
+   font-weight: 50px;
+   color: #833d9e;
+}
+
+header >:hover{
+   color: blueviolet;
+   
+   
+}
+header strong{
+   font-family: var(--principal);
+   font-size: 30px;
+   color: rgb(48, 23, 139);
+}
+
+.tudo{
+    top: 30px;
+    bottom: 30px;
+    position: relative;
+    background-color: white;
+    width: 900px;
+    height: 500px;
+    margin: auto;
+}
