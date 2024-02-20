@@ -82,6 +82,7 @@ h1{
     display: flex;
     justify-content: space-around;
     margin-bottom: 3%;
+    flex-wrap: wrap;
     
 
 }
