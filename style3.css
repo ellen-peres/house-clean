@@ -12,6 +12,7 @@
 --principal:'Oleo Script Swash Caps', system-ui;
 --tudo:'Roboto', sans-serif;
 
+
 }
 *{
 padding: 0%;
@@ -25,6 +26,7 @@ body{
  
    
    background-color:#5299e3;
+   overflow-x: hidden;
   
 }
 
