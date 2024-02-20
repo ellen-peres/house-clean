@@ -23,7 +23,7 @@ font-family: var(--tudo);
 
 body{
  
-   overflow-x: hidden;
+   
    background-color:#5299e3;
   
 }
@@ -39,7 +39,7 @@ body{
 header{
    padding: 4%;
    text-align: center;
-   margin-top: 3%;
+   margin-top: 1%;
    width: 100vw;
   align-items: center;
    background-color: rgba(245, 248, 255, 0.692);
@@ -66,11 +66,28 @@ header strong{
 }
 
 .tudo{
-    top: 30px;
-    bottom: 30px;
-    position: relative;
-    background-color: white;
+   position: absolute;
+   margin-top: 8%;
+   top: 60%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background-color: azure;
     width: 900px;
-    height: 500px;
-    margin: auto;
+    height: 450px;
+     border-radius: 5%;
+}
+
+iframe{
+   top: 40%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   position:relative;
+
+}
+
+p{
+   top: 900%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   position:relative;
 }
