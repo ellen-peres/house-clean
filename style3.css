@@ -18,24 +18,10 @@
 padding: 0%;
 margin: 0%;
 box-sizing: border-box;   
-font-family: var(--tudo);
-
-}
+font-family: var(--tudo);}
 
 body{
- 
-   
-   background-color:#5299e3;
-   overflow-x: hidden;
-  
-}
-
-
-.fundo{
-  width: 700px;
-  height: auto;
-   background-color: #49466F;
-
+   background-image: url(imagens-p2/dimitri-iakymuk-mCR10j_B6sM-unsplash.png);
 }
 
 header{
@@ -44,7 +30,8 @@ header{
    margin-top: 1%;
    width: 100vw;
   align-items: center;
-   background-color: rgba(245, 248, 255, 0.692);
+   background-color: rgba(245, 248, 255, 0.363);
+    margin-bottom: 2%;
 }
 
 header > a{
@@ -67,29 +54,44 @@ header strong{
    color: rgb(48, 23, 139);
 }
 
-.tudo{
-   position: absolute;
-   margin-top: 8%;
-   top: 60%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   background-color: azure;
-    width: 900px;
-    height: 450px;
-     border-radius: 5%;
+
+body{
+   background-color: rgba(0, 0, 255, 0.384);
+}
+
+.parent{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  
+   width: 100vw;
+   height: 100vh;
+}
+  
+
+
+.child{
+   border-radius: 5%;
+   margin-left:6%;
+   margin-right:6%;
+   background-color: rgba(255, 255, 255, 0.753);
+   width: 800px;
+   height: 510px;
+}
+
+.child > p {
+    margin: 5%;
 }
 
 iframe{
-   top: 40%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   position:relative;
-
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left:10% ;
+   margin-top: 5%;
 }
 
-p{
-   top: 900%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   position:relative;
+.Telephone{
+   text-align: center;
+   font-size: 25px;
 }
