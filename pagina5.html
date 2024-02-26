@@ -6,6 +6,63 @@
     <title>Reviews</title>
     <style>
 
+    @charset "UTF-8";
+
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap');
+            
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+    :root{
+    --principal:'Oleo Script Swash Caps', system-ui;
+    --tudo:'Roboto', sans-serif;
+
+    }
+    *{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;   
+    font-family: var(--tudo);
+
+}
+
+    header{
+    padding: 4%;
+    text-align: center;
+    margin-top: 3%;
+    width: 100vw;
+    align-items: center;
+    background-color: rgba(245, 248, 255, 0.692);
+    }
+
+    header > a{
+    margin: 4%;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: 50px;
+    }
+
+    header >:hover{
+    color: blueviolet;
+    
+    
+    }
+    header strong{
+    font-family: var(--principal);
+    font-size: 30px;
+    color: rgb(48, 23, 139);}
+
+        body{
+            background-image:url(imagens-p2/dimitri-iakymuk-mCR10j_B6sM-unsplash.png);
+            background-size: cover;
+            overflow-x: hidden;
+         
+        }
+
         main{
             
             
@@ -15,10 +72,10 @@
             overflow: hidden;
             justify-content: center;
             align-items: center;
-            background-color: pink;
-            width:100%px;
+           
+            width:100%;
             height:auto;
-            overflow-y:scroll;
+          
 
         }
         .propriedades{
@@ -35,18 +92,41 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 700px;
-            height: 300px;
+            width: 500px;
+            height: 400px;
             background-color: rgb(31, 105, 170);
+            background-image: url(imagens-p2/casa3.jpg);
+            background-size: cover;
+            background-position: center;
         }
+
+        .imagem2{
+
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 500px;
+            height: 400px;
+            background-color: rgb(31, 105, 170);
+            background-image: url(imagens-p2/casa2.jpg);
+            background-size: cover;
+            background-position: center;
+            }
         .texto{
             margin: auto;
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 400px;
-            height: 300px;
+            width: 600px;
+            height: 400px;
             background-color: aliceblue;
+        }
+
+        .texto > p{
+            margin: auto;
+            text-align: center;
+            font-size: larger;
         }
 
         
@@ -54,19 +134,28 @@
     </style>
 </head>
 <body>
+    <header   class="header">
+        <a href="pagina2.html">why us?</a>
+        <a href="pagina4.html">about us</a>
+        <a href="index.html"><strong>House Clean</strong></a>
+        <a href="pagina5.html">reviews</a>
+        <a href="pagina3.html">contact us</a>
+         </header>
+
     <main>
         <section>
             <div
             class="propriedades">
-                <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laudantium non ipsam et ullam suscipit voluptates quo. Facilis dolorem sint similique dignissimos? Neque adipisci sunt sint voluptatum, at nihil facere.</div>
+                <div class="texto"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laudantium non ipsam et ullam suscipit voluptates quo. Facilis dolorem sint similique dignissimos? Neque adipisci sunt sint voluptatum, at nihil facere.</p></div>
 
             
             <div class="imagem"></div></div>
 
             <div
             class="propriedades">
-<div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laudantium non ipsam et ullam suscipit voluptates quo. Facilis dolorem sint similique dignissimos? Neque adipisci sunt sint voluptatum, at nihil facere.</div>
-                <div class="imagem"></div></div>
+            
+<div class="texto"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laudantium non ipsam et ullam suscipit voluptates quo. Facilis dolorem sint similique dignissimos? Neque adipisci sunt sint voluptatum, at nihil facere.</p></div>
+                <div class="imagem2"></div></div>
         </section>
     </main>
 </body>

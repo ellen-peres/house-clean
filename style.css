@@ -470,6 +470,7 @@ text-align: center;
 }
 
 footer{
+   flex-wrap: wrap;
    background-color: rgba(255, 255, 255, 0.651);
    display: flex;
    justify-content: space-around;
@@ -499,9 +500,4 @@ footer{
 
 }
 
-.scroll-container{
-   display: block;
-   overflow-x: scroll;
-  scroll-behavior: smooth;
-}
    
