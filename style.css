@@ -21,77 +21,139 @@
 
 --Bungee: "Bungee", sans-serif;
   
-
- 
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: var(--Bungee);
 }
 
-
-
-
-*{
-padding: 0%;
-margin: 0%;
-box-sizing: border-box;   
-
-
-
-
-}
-
-body{
- 
-   overflow-x: hidden;
-   background-color:#cfa5ec;
-  
-}
-
-
-.fundo{
-  width: 900px;
-  height: 1000px;
-   background-color: #49466F;
-
-}
-.logo{
-   margin-top: -50px;
-   width: 150px;
-}
-
-header{
-
-   padding:  2%;
-   text-align: center;
+header {
    margin-top: 2%;
-   width: 100vw;
-  align-items: center;
-   background-color:rgba(255, 255, 255, 0.596); 
+    background-color: #24252ab7;
+    box-shadow: 0px 3px 10px #464646;
+}
+body{
+   background-color: #daabf1
+   }
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
 }
 
-header > a{
-   font-family: var(--serif2);
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    color: #fff;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    font-family: var(--Bungee);
+
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-family: var(--Bungee);
+    padding: 1%;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.login-button button {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #0187a7;
+}
+
+.login-button button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width: 730px) {
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+    .nav-item {
+        display: none;
+    }
+    .login-button {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+    .open {
+        display: block;
+    }
+}
+
  
+
+
+
+
+
+.logo2{
    
-   margin: 4%;
- 
-   text-decoration: none;
-   box-sizing: border-box;
-   font-size: 20px;
-   font-weight: 50px;
-   color: #921964;
-   text-transform: uppercase;
-
+   margin-top:-50px ;
    
-
-
+   width: 120px;
 }
-
-header >:hover{
-   color: blueviolet;
-   
-   
-}
-
 
 .box {
   
