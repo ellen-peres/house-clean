@@ -23,8 +23,8 @@
   
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
 * {
-    padding: 0;
-    margin: 0;
+    padding: 0%;
+    margin: 0%;
     box-sizing: border-box;
  
 }
@@ -36,12 +36,16 @@ main{
 }
 
 header {
+   width: 100%;
+   margin-top:2% ;
    margin-top: 2%;
     background-color: #24252ab7;
     box-shadow: 0px 3px 10px #464646;
 }
 body{
-   background-color: #daabf1
+   background-color: #daabf1;
+   overflow-x: hidden;
+   
    }
 
 .nav-bar {
@@ -57,9 +61,6 @@ body{
     align-items: center;
 }
 
-.logo h1 {
-    color: #fff;
-}
 
 .nav-list {
     display: flex;
@@ -110,46 +111,45 @@ body{
 }
 
 @media screen and (max-width: 730px) {
-    .nav-bar {
-        padding: 1.5rem 4rem;
-    }
-    .nav-item {
-        display: none;
-    }
-    .login-button {
-        display: none;
-    }
-    .mobile-menu-icon {
-        display: block;
-    }
-    .mobile-menu-icon button {
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-    }
-    .mobile-menu ul {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 1rem;
-    }
-    .mobile-menu .nav-item {
-        display: block;
-        padding-top: 1.2rem;
-    }
-    .mobile-menu .login-button {
-        display: block;
-        padding: 1rem 2rem;
-    }
-    .mobile-menu .login-button button {
-        width: 100%;
-    }
-    .open {
-        display: block;
-    }
+   .nav-bar {
+       padding: 1.5rem 4rem;
+   }
+   .nav-item {
+       display: none;
+   }
+   .login-button {
+       display: none;
+   }
+   .mobile-menu-icon {
+       display: block;
+   }
+   .mobile-menu-icon button {
+       background-color: transparent;
+       border: none;
+       cursor: pointer;
+   }
+   .mobile-menu ul {
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+       padding-bottom: 1rem;
+   }
+   .mobile-menu .nav-item {
+       display: block;
+       padding-top: 1.2rem;
+   }
+   .mobile-menu .login-button {
+       display: block;
+       padding: 1rem 2rem;
+   }
+   .mobile-menu .login-button button {
+       width: 100%;
+   }
+   .open {
+       display: block;
+   }
 }
 
- 
 
 
 
@@ -157,7 +157,7 @@ body{
 
 .logo2{
    
-   margin-top:-50px ;
+   margin-top:-10px ;
    
    width: 120px;
 }
