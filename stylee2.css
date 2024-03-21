@@ -96,7 +96,7 @@
     right: 0;
     height: 100vh;
     width: 250px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(59, 39, 39, 0.705);
     backdrop-filter: blur(12px);
     box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
     list-style: none;
@@ -183,11 +183,7 @@
 
 
 
-  .why-hire-us-center{
-    background-color:  rgba(240, 255, 255, 0.534);
-    margin: auto;
-    align-items: center;
-  }
+
   .why-hire-us{
     border-radius: 3% 3% 0% 0%;
     margin: auto;
@@ -225,57 +221,12 @@
   margin-top: 2%;
 }
 
-
-.why-hire-us-center{
-  
-  height: 100vh;
-    width: 90vw;
-  background-color:  rgba(240, 255, 255, 0.534);
-
-}
-.lotus-logo-base{
-  flex-wrap: wrap;
-
- display: flex;
- justify-content: space-around;
- 
- 
-}
-
-
-.circulo-imagem{
-  
-  background-image: url(assets/img/Imagem\ do\ WhatsApp\ de\ 2024-01-30\ à\(s\)\ 17.54.07_f16c72df.jpg);
-  background-position: center center;
-  background-size: cover;
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  background-color: aliceblue;
-  margin: 9%;
-  
-}
-
-.circulo-imagem:hover{
-  background-color: aliceblue;
-  background-image: url(imagens-p2/lotus.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  
-}
-
-
-
 .what-you-can{
-
   text-align: center;
-  
 }
 
-.circulo-texto{
-  flex-wrap: wrap;
-  display: flex;
-  flex-direction: column;
+.what{
   text-align: center;
-  
-}
+  background-color: rgba(240, 255, 255, 0.534);
+  width: 97vh;
+
