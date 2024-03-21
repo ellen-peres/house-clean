@@ -1,12 +1,44 @@
+    @charset "UTF-8";
+
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap');
+              
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap') ;
+ 
+
+
+
+    :root{
+      --principal:'Oleo Script Swash Caps', system-ui;
+      --tudo:'Roboto', sans-serif;
+      --serif2: "Noto Serif", serif;
+
+      --Bungee: "Bungee", sans-serif;
+    }
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
   body{
+    overflow-x: hidden;
+    background-color: rgb(197, 142, 248);
     min-height: 100vh;
     background-image: url(imagens/fundo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-family: var(--tudo);
+  
+  }
     
 
 
@@ -15,13 +47,22 @@
 
  
   }
+
+  header{
+    font-family: var(--Bungee);
+    font-family: var(--Bungee);
+    background-color: rgb(185, 19, 75);
+  }
   nav{
+    font-family: var(--Bungee);
+    font-family: var(--Bungee);
     margin-top: 2%;
     
     background-color: rgba(59, 39, 39, 0.705);
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
   }
   nav ul{
+    font-family: var(--Bungee);
     padding: 2%;
     width: 100%;
     list-style: none;
@@ -30,11 +71,11 @@
     align-items: center;
   }
   nav li{
-
+    font-family: var(--Bungee);
     height: 50px;
   }
   nav a{
-    padding: 2%;
+   font-family: var(--Bungee);
     height: 100%;
     padding: 0 85px;
     text-decoration: none;
@@ -55,7 +96,7 @@
     right: 0;
     height: 100vh;
     width: 250px;
-    background-color: rgba(255, 255, 255, 0.15);
+    background-color: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(12px);
     box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
     list-style: none;
@@ -65,12 +106,15 @@
     justify-content: flex-start;
   }
   .sidebar li{
+    font-family: var(--Bungee);
     width: 100%;
   }
   .sidebar a{
+    font-family: var(--Bungee);
     width: 100%;
   }
   .menu-button{
+    font-family: var(--Bungee);
     display: none;
   }
   @media(max-width: 800px){
@@ -88,6 +132,7 @@
   }
 
   .menu{
+    font-family: var(--Bungee);
     min-height: 100vh;
     background: url('fundo_lotus_completo.png');
     background-size: cover;
@@ -97,7 +142,7 @@
   }
 
   .how-we-work{
-
+    font-family: var(--Bungee);
     flex-wrap: wrap;
    display: flex;
    justify-content: space-around;
@@ -123,6 +168,8 @@
   }
 
   .quadrado-limpeza h1 {
+    font-family: var(--tudo);
+    font-weight: 900;
     text-align: center;
     align-items: center;
     margin: 9% 3%;
@@ -137,10 +184,12 @@
 
 
   .why-hire-us-center{
+    background-color:  rgba(240, 255, 255, 0.534);
     margin: auto;
     align-items: center;
   }
   .why-hire-us{
+    border-radius: 3% 3% 0% 0%;
     margin: auto;
     width: 100vh;
     width: 90vw;
@@ -158,13 +207,75 @@
   }
 
   .texto-why-hire-us{
-    text-align: center;
-    width: 320px;
+    text-align: justify;
+   
+    width: 360px;
     margin: auto;
   }
 
   .texto-why-hire-us h1{
+    font-size: 50px;
+    font-family: var(--tudo);
     margin: 10%;
     text-align: center;
     
   }
+
+.frasco-foto{
+  margin-top: 2%;
+}
+
+
+.why-hire-us-center{
+  
+  height: 100vh;
+    width: 90vw;
+  background-color:  rgba(240, 255, 255, 0.534);
+
+}
+.lotus-logo-base{
+  flex-wrap: wrap;
+
+ display: flex;
+ justify-content: space-around;
+ 
+ 
+}
+
+
+.circulo-imagem{
+  
+  background-image: url(assets/img/Imagem\ do\ WhatsApp\ de\ 2024-01-30\ à\(s\)\ 17.54.07_f16c72df.jpg);
+  background-position: center center;
+  background-size: cover;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: aliceblue;
+  margin: 9%;
+  
+}
+
+.circulo-imagem:hover{
+  background-color: aliceblue;
+  background-image: url(imagens-p2/lotus.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+}
+
+
+
+.what-you-can{
+
+  text-align: center;
+  
+}
+
+.circulo-texto{
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+}
