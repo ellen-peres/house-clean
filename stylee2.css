@@ -1,71 +1,170 @@
 *{
     margin: 0;
     padding: 0;
-}
-
-body{
+  }
+  body{
     min-height: 100vh;
-    background-image: url(fundo_lotus_completo.png);
-     background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-      font-family: sans-serif;
-}
-
-nav{
+    background-image: url(imagens/fundo.png);
     
-    background-color: white;
-    box-shadow: 3px 3px 5px  rgba(0, 0, 0, 0.479);
-}
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+    
 
-nav ul{
+
+  .logo-lotus{
+    width: 100px;
+
+ 
+  }
+  nav{
+    margin-top: 2%;
+    
+    background-color: rgba(59, 39, 39, 0.705);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  }
+  nav ul{
+    padding: 2%;
     width: 100%;
     list-style: none;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-}
+  }
+  nav li{
 
-nav li{
     height: 50px;
-}
-nav a{
+  }
+  nav a{
+    padding: 2%;
     height: 100%;
-    padding: 0 30px;
+    padding: 0 85px;
     text-decoration: none;
     display: flex;
     align-items: center;
     color: black;
-}
-
-nav a:hover{
-    background-color: #f0f0f0;
-
-}
-
-nav li:first-child{
-   margin: auto; 
-}
-
-.sidebar{
+  }
+  nav a:hover{
+    
+    background-color: #46232362;
+  }
+  nav li:first-child{
+    margin-right: auto;
+  }
+  .sidebar{
     position: fixed;
-    top: 0;
+    top: 0; 
     right: 0;
     height: 100vh;
     width: 250px;
-    z-index:999;
-    backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.459);
-    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.541);
-    display: flex;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    display: none;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-}
+  }
+  .sidebar li{
+    width: 100%;
+  }
+  .sidebar a{
+    width: 100%;
+  }
+  .menu-button{
+    display: none;
+  }
+  @media(max-width: 800px){
+    .hideOnMobile{
+      display: none;
+    }
+    .menu-button{
+      display: block;
+    }
+  }
+  @media(max-width: 400px){
+    .sidebar{
+      width: 100%;
+    }
+  }
 
-.sidebar li {
-    width: 100%;
-}
-.sidebar a {
-    width: 100%;
-}
+  .menu{
+    min-height: 100vh;
+    background: url('fundo_lotus_completo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+  }
+
+  .how-we-work{
+
+    flex-wrap: wrap;
+   display: flex;
+   justify-content: space-around;
+   margin-bottom: 40%;
+  }
+
+  
+  .quadrado-limpeza{
+    border-radius: 25%;
+    margin-bottom: 5%;
+    margin: 1%;
+    align-items: center;
+    background-color: azure;
+    width: 320px;
+    height: 320px;
+  }
+
+  .how{
+ 
+    margin-top: 20%;
+    margin-bottom: 10%;
+    text-align: center;
+  }
+
+  .quadrado-limpeza h1 {
+    text-align: center;
+    align-items: center;
+    margin: 9% 3%;
+  }
+
+  .quadrado-limpeza p {
+    
+    align-items: center;
+    margin: 4%;
+  }
+
+
+
+  .why-hire-us-center{
+    margin: auto;
+    align-items: center;
+  }
+  .why-hire-us{
+    margin: auto;
+    width: 100vh;
+    width: 90vw;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: rgba(240, 255, 255, 0.534);
+    align-items: center;
+    text-align: center;
+  }
+
+  .imagem-de-um-frasco{
+   
+    margin: auto;
+    align-items: center;
+  }
+
+  .texto-why-hire-us{
+    text-align: center;
+    width: 320px;
+    margin: auto;
+  }
+
+  .texto-why-hire-us h1{
+    margin: 10%;
+    text-align: center;
+    
+  }
