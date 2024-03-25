@@ -30,9 +30,9 @@
   }
   body{
     overflow-x: hidden;
-    background-color: rgb(213, 209, 255);
+    background-color: #e9b3f9;
     min-height: 100vh;
-    background-image: url(imagens/fundo.png);
+  
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -62,7 +62,7 @@
     
     margin-top: 2%;
     
-    background-color: rgba(59, 39, 39, 0.705);
+    background-color: rgba(102, 72, 72, 0.473);
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
   }
   nav ul{
@@ -100,7 +100,7 @@
     right: 0;
     height: 100vh;
     width: 250px;
-    background-color: rgba(59, 39, 39, 0.705);
+    background-color: rgba(59, 39, 39, 0.308);
     backdrop-filter: blur(12px);
     box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
     list-style: none;
@@ -143,8 +143,22 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+   position: relative;
+    
    
   }
+
+  .menu > h1{
+    width: 100%;
+   position: absolute;
+    text-align: center;
+    justify-content: center;
+    top: 35%;
+    color: beige;
+    font-size: 60px;
+    font-weight:800px;
+    text-shadow: 2px 5px 12px   black;
+    font-family: var(--Bungee);}
 
   .how-we-work{
     
@@ -183,7 +197,7 @@
   .quadrado-limpeza p {
     
     align-items: center;
-    margin: 4%;
+    margin: 2%;
   }
 
 
@@ -193,7 +207,7 @@
     border-radius: 3% 3% 0% 0%;
     margin: auto;
     width: 100vh;
-    width: 90vw;
+    width:  90vw;
     flex-wrap: wrap;
     display: flex;
     background-color: rgba(240, 255, 255, 0.534);
@@ -210,7 +224,7 @@
   .texto-why-hire-us{
     text-align: justify;
    
-    width: 360px;
+    width: 300px;
     margin: auto;
   }
 
@@ -229,7 +243,7 @@
 
 .hire-us-txt{
   margin: auto;
-  width: 320px;
+  width: 700px;
   align-items: center;
   color: #49466F;
 
@@ -243,7 +257,9 @@
 }
 
 .flores-margin{
-  margin: auto;
+  text-align: center;
+  margin-right:10% ;
+  
   margin-top: 8%;
 }
 
@@ -251,7 +267,7 @@
 margin: auto;
   text-align: center;
   align-items: center;
-  font-size: 3.4vw;
+  font-size: 4vw;
   font-family: var(--Bungee);
 
  
@@ -381,7 +397,7 @@ text-align: center;
 }
 
 .happy1 h1{
- 
+ font-size: 100%;
   margin-top: 20%;
   
  
