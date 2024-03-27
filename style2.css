@@ -24,6 +24,8 @@
 *{  
 margin: 0;
 padding: 0;
+font-family: var(--serif2);
+
 
 
 box-sizing: border-box;
@@ -38,7 +40,7 @@ background-repeat: no-repeat;
 background-size: cover;
 
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-font-family: var(--tudo);
+
 
 }
 
@@ -61,6 +63,9 @@ font-size: 10px;
 
 }
 nav{
+  font-size: 11%;
+  font-weight: 900;
+  background-color: #ffffff13;
 font-family: var(--Bungee);
 font-size: 12px;
 margin-top: 2%;
@@ -77,18 +82,23 @@ list-style: none;
 display: flex;
 justify-content: flex-end;
 align-items: center;
+font-weight: 100%
 }
 nav li{
 color: beige;
 height: 50px;
+font-weight: 100%
 }
 nav a{
+  font-weight: 900;
 color: beige;
 height: 100%;
-padding: 0 92px;
+padding: 0 90px;
 text-decoration: none;
 display: flex;
 align-items: center;
+text-transform: uppercase;
+ font-size: 89%;
 
 }
 nav a:hover{
@@ -150,7 +160,7 @@ display: none;
 
 body{
 
-   background-image: url(imagens-p2/fundo.png);
+  background-color: #7196e3;
    background-position: top center;
    background-size: cover;
    background-repeat: no-repeat;
@@ -161,6 +171,7 @@ body{
 
 }
 main{
+  background-color: #c6bdfa;
     width: 100vw;
     overflow-x: hidden;
 }
@@ -186,17 +197,18 @@ main{
     
     }
 h1{
-    margin-top:3% ;
-    margin-bottom:3%;
+    margin-top:8% ;
+    margin-bottom:8%;
     align-items: center;
     text-align: center;
     color: #ffffff;
     text-transform: uppercase;
-
+    font-family: var(--tudo);
     text-shadow: 2px 7px  12px #00000065;
+    font-weight: 900;
    
  
-    font-size: 90px;
+    font-size: 70px;
     font-family: var(--Bungee);
     font-weight: 100%;
     
@@ -224,11 +236,11 @@ h1{
 }
 
 .cx  p{
-    width: 310px;
-    margin-top:15%;
+    width: 300px;
+    margin-top:12%;
     align-items: center;
     margin-left:  7%;
-    font-size: 17px;
+    font-size: 16px;
     color:#070107 ;
     color: rgb(113, 100, 226);
     font-weight: 300px;
