@@ -6,60 +6,35 @@
     <title>Reviews</title>
     <style>
 
-@charset "UTF-8";
+    @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap');
-          
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-
+    @import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap');
+            
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+    
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap') ;
 
 
 
-
-:root{
-  --principal:'Oleo Script Swash Caps', system-ui;
+    :root{
+        --principal:'Oleo Script Swash Caps', system-ui;
   --tudo:'Roboto', sans-serif;
   --serif2: "Noto Serif", serif;
 
   --Bungee: "Bungee", sans-serif;
-}
-*{  
-margin: 0;
-padding: 0;
 
-
-box-sizing: border-box;
-}
-body{
-overflow-x: hidden;
-background-color: #e9b3f9;
-min-height: 100vh;
-
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-font-family: var(--tudo);
+    }
+    *{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;   
+    font-family: var(--tudo);
 
 }
-
-main{
-background-image:url(imagens/fundo.png);
-background-attachment: fixed;
-background-position: center;
-background-size: cover;
-}
-
-
-
-
 header{
 
 color: beige;
@@ -93,10 +68,13 @@ height: 50px;
 nav a{
 color: beige;
 height: 100%;
-padding: 0 85px;
+padding: 0 89px;
 text-decoration: none;
 display: flex;
 align-items: center;
+font-weight: 100%;
+font-size: 14px;
+font-family: var(--Bungee);
 
 }
 nav a:hover{
@@ -155,11 +133,6 @@ display: none;
 
 
 }
-    header strong{
-    font-family: var(--principal);
-    font-size: 30px;
-    color: rgb(48, 23, 139);}
-
         body{
             background-image:url(imagens-p2/dimitri-iakymuk-mCR10j_B6sM-unsplash.png);
             background-size: cover;
@@ -243,14 +216,40 @@ display: none;
     </style>
 </head>
 <body>
-    <header   class="header">
-        <a href="pagina2.html">why us?</a>
-        <a href="pagina4.html">about us</a>
-        <a href="index.html"><strong>House Clean</strong></a>
-        <a href="pagina5.html">reviews</a>
-        <a href="pagina3.html">contact us</a>
-         </header>
+    
+    <nav>
+        <ul class="sidebar">
+          <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+          <li><a href="pagina2.html">why us</a></li>
+          <li><a href="pagina4.html">about us</a></li>
+          <li><a href="pagina5.html">reviews</a></li>
+          <li><a href="pagina3.html">contact us</a></li>
+          
+        </ul>
+        <ul>
+      
+          <li class="hideOnMobile"><a href="pagina2.html">why us</a></li>
+          <li class="hideOnMobile"><a href="pagina4.html">about us</a></li>
+          <li><a href="index.html"><img src="imagens-p2/lotus2.png" alt="logo-lotus" class="logo-lotus"></a></li>
+          <li class="hideOnMobile"><a href="pagina5.html">reviews</a></li>
+          
+          <li class="hideOnMobile"><a href="pagina3.html">contact us</a></li>
+          
+          <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+        </ul>
+      </nav>
+  </div>
 
+  <script>
+    function showSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'flex'
+    }
+    function hideSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'none'
+    }
+  </script>
     <main>
         <section>
             <div
