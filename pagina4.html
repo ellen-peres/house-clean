@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About us</title>
     <style>
         @charset "UTF-8";
 
@@ -13,21 +13,26 @@
           
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap') ;
+
+
 
 
 :root{
---principal:'Oleo Script Swash Caps', system-ui;
---tudo:'Roboto', sans-serif;
+  --principal:'Oleo Script Swash Caps', system-ui;
+  --tudo:'Roboto', sans-serif;
+  --serif2: "Noto Serif", serif;
 
-
+  --Bungee: "Bungee", sans-serif;
 }
-*{
-padding: 0%;
-margin: 0%;
-box-sizing: border-box;   
-font-family: var(--tudo);
+*{  
+margin: 0;
+padding: 0;
 
-}
+
+box-sizing: border-box;
 
 body{
  
@@ -38,6 +43,8 @@ body{
    overflow-x: hidden;
   
 }
+
+
 
 
 
@@ -100,18 +107,142 @@ main{
             height: 450px;
         }
        
+     
 
+
+header{
+
+color: beige;
+background-color: rgba(95, 12, 37, 0.603); 
+font-family: var(--Bungee);
+font-size: 10px;
+
+}
+nav{
+font-family: var(--Bungee);
+font-size: 12px;
+margin-top: 2%;
+color: beige;
+
+
+box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+nav ul{
+color: beige;
+padding: 2%;
+width: 100%;
+list-style: none;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+}
+nav li{
+color: beige;
+height: 50px;
+}
+nav a{
+color: beige;
+height: 100%;
+padding: 0 85px;
+text-decoration: none;
+display: flex;
+align-items: center;
+
+
+}
+nav a:hover{
+
+background-color: #46232362;
+}
+nav li:first-child{
+margin-right: auto;
+}
+.sidebar{
+position: fixed;
+top: 0; 
+right: 0;
+height: 100vh;
+width: 250px;
+background-color: rgba(59, 39, 39, 0.308);
+backdrop-filter: blur(12px);
+box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+list-style: none;
+display: none;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+}
+.sidebar li{
+
+
+width: 100%;
+}
+.sidebar a{
+
+width: 100%;
+}
+.menu-button{
+font-family: var(--Bungee);
+display: none;
+}
+@media(max-width: 800px){
+.hideOnMobile{
+  display: none;
+}
+.menu-button{
+  display: block;
+}
+}
+@media(max-width: 400px){
+.sidebar{
+  width: 100%;
+}
+}
+
+.logo-lotus{
+  color: beige;
+
+  width: 100px;
+
+
+}
 
     </style>
 </head>
 <body>
-    <header   class="header">
-        <a href="pagina2.html">why us?</a>
-        <a href="#">about us</a>
-        <a href="index.html"><strong>House Clean</strong></a>
-        <a href="#">reviews</a>
-        <a href="pagina3.html">contact us</a>
-        </header>
+  <nav>
+    <ul class="sidebar">
+      <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+      <li><a href="pagina2.html">why us</a></li>
+      <li><a href="pagina4.html">about us</a></li>
+      <li><a href="pagina5.html">reviews</a></li>
+      <li><a href="pagina3.html">contact us</a></li>
+      
+    </ul>
+    <ul>
+  
+      <li class="hideOnMobile"><a href="pagina2.html">why us</a></li>
+      <li class="hideOnMobile"><a href="pagina4.html">about us</a></li>
+      <li><a href="index.html"><img src="imagens-p2/lotus2.png" alt="logo-lotus" class="logo-lotus"></a></li>
+      <li class="hideOnMobile"><a href="pagina5.html">reviews</a></li>
+      
+      <li class="hideOnMobile"><a href="pagina3.html">contact us</a></li>
+      
+      <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+    </ul>
+  </nav>
+</div>
+
+<script>
+function showSidebar(){
+  const sidebar = document.querySelector('.sidebar')
+  sidebar.style.display = 'flex'
+}
+function hideSidebar(){
+  const sidebar = document.querySelector('.sidebar')
+  sidebar.style.display = 'none'
+}
+</script>
 
     <main>
         <section class="scroll-direction">
