@@ -41,6 +41,7 @@ background-size: cover;
 
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 font-family: var(--tudo);
+overflow-x: hidden;
 
 }
 
@@ -268,6 +269,7 @@ font-family: var(--tudo);
 margin: 10%;
 text-align: center;
 text-transform: uppercase;
+margin: auto;
 
 }
 
@@ -283,6 +285,7 @@ margin-bottom: 60%;
 width: 800px;
 align-items: center;
 color: #49466F;
+margin: auto;
 
 
 }
@@ -292,6 +295,7 @@ color: #49466F;
 font-family: var(--Bungee);
 font-weight: 50%;
 text-transform: uppercase;
+margin: auto;
 }
 
 .flores-margin{
