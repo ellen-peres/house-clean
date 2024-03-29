@@ -29,10 +29,21 @@ font-family: var(--serif2);
 
 
 box-sizing: border-box;
+
+body{
+
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: var(--Bungee);
+  
+  width: 100vw;
+  overflow-x: hidden;
+
 }
 body{
 overflow-x: hidden;
-background-color: #e9b3f9;
+
 min-height: 100vh;
 
 background-position: center;
@@ -45,7 +56,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 main{
-background-image:url(imagens/fundo.png);
+background-image:url();
 background-attachment: fixed;
 background-position: center;
 background-size: cover;
@@ -57,7 +68,7 @@ background-size: cover;
 header{
 
 color: beige;
-background-color: rgba(95, 12, 37, 0.603); 
+
 font-family: var(--Bungee);
 font-size: 10px;
 
@@ -91,7 +102,7 @@ font-weight: 100%
 }
 nav a{
   font-weight: 900;
-color: beige;
+color: rgb(192, 103, 181);
 height: 100%;
 padding: 0 90px;
 text-decoration: none;
@@ -109,7 +120,8 @@ nav li:first-child{
 margin-right: auto;
 }
 .sidebar{
-position: fixed;
+  position: fixed;
+
 top: 0; 
 right: 0;
 height: 100vh;
@@ -158,23 +170,8 @@ display: none;
 
 }
 
-body{
 
-  background-color: #7196e3;
-   background-position: top center;
-   background-size: cover;
-   background-repeat: no-repeat;
-   font-family: var(--Bungee);
-   
-   width: 100vw;
-   overflow-x: hidden;
 
-}
-main{
-  background-color: #c6bdfa;
-    width: 100vw;
-    overflow-x: hidden;
-}
   
   
 
@@ -196,58 +193,112 @@ main{
     
     
     }
-h1{
-    margin-top:8% ;
-    margin-bottom:8%;
-    align-items: center;
-    text-align: center;
-    color: #ffffff;
-    text-transform: uppercase;
-    font-family: var(--tudo);
-    text-shadow: 2px 7px  12px #00000065;
-    font-weight: 900;
-   
+
+
+
  
-    font-size: 70px;
-    font-family: var(--Bungee);
-    font-weight: 100%;
-    
-}
-.why{
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 3%;
-    flex-wrap: wrap;
-    
+.why-hire-us{
+  background-image: url(assets/img/Design\ sem\ nome-fotor-bg-remover-20240328234833\ 1.png);
+  width: 100vw;
+  height: 100vh;
+
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 
-.cx{
-    background-color: white;
-    width: 370px;
-    height: 484px;
-    border-radius: 2%;
-    box-shadow: 2px 7px  12px #0000005e;
-    margin-left: -1%;
-    font-family: var(--Bungee);
-   
-    
-    
+.why-hire-us > h1{
+  position: absolute;
+  top: 50%;
+  right: 35%;
+  margin: auto;
+  font-size: 300%;
+  color: rgb(30, 89, 54);
 }
 
-.cx  p{
-    width: 300px;
-    margin-top:12%;
-    align-items: center;
-    margin-left:  7%;
-    font-size: 16px;
-    color:#070107 ;
-    color: rgb(113, 100, 226);
-    font-weight: 300px;
+.cx > p  {
+
+  background-color: rgba(254, 255, 225, 0.556);
+  backdrop-filter: blur(12px);
+  padding: 7%;
+  border-radius: 8px 30px 8px 80px;
 }
 
-.cx-image img{
-    width: 400px;
-    height: 515px;
+.cx > h1{
+  background-color: rgba(254, 255, 225, 0.556);
+  backdrop-filter: blur(12px);
+  padding: 7%;
+  border-radius: 8px 30px 8px 80px;
+
+}
+.cx  {
+  top: 30%;
+  left: 10%;
+  position: absolute;
+  
+  
+  width: 600px;
+  height: 00px;
 }
 
+
+
+
+.leaves-back{
+  background-image: url(assets/img/lotus_abstract_illustration_by_sanshow_dgpl19v-fullview.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.cx2{
+  background-color: antiquewhite;
+padding-top:10% ;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.organizar-a-casa{
+  width: 400px;
+  height: 400px;
+  margin-right:10% ;
+}
+
+.cx2 > p{
+    margin: auto;
+}
+
+.txt > p {
+  padding:10% ;
+  width: 400px;
+}
+
+span{
+  font-size: 200%;
+  font-weight: 900;
+  color: rgb(230, 194, 151);
+}
+
+
+@media(max-width: 800px){
+  .cx{
+     top: 10%;
+     width: 390px;
+  }
+  .why-hire-us > image{
+    display: none;
+  }
+
+  .pink-frasco{
+    display: none;
+  }
+  }
+  @media(max-width: 400px){
+  .cx > p{
+    font-size: 100px;
+  }
