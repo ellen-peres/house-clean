@@ -51,15 +51,16 @@ background-size: cover;
 
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 font-family: var(--tudo);
-
-}
-
-main{
-background-image:url(imagens/fundo.png);
+background-image:url(assets/img/lotus-flower-lotus-lake-74688d-1024.jpg);
 background-color: #b2b0ff;
 background-attachment: fixed;
 background-position: center;
 background-size: cover;
+
+}
+
+main{
+
 }
 
 
@@ -168,7 +169,8 @@ display: none;
   
    width: 100vw;
    height: 100vh;
-}
+  
+  }
   
 
 
@@ -176,9 +178,10 @@ display: none;
    border-radius: 5%;
    margin-left:6%;
    margin-right:6%;
-   background-color: rgba(255, 255, 255, 0.753);
+   background-color: rgba(255, 255, 255, 0.335);
    width: 800px;
    height: 510px;
+   backdrop-filter: blur(12px);
 }
 
 .child > p {
@@ -196,4 +199,6 @@ iframe{
 .Telephone{
    text-align: center;
    font-size: 25px;
+   color: #891989;
 }
+

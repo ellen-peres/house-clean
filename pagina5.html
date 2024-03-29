@@ -4,216 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reviews</title>
-    <style>
-
-    @charset "UTF-8";
-
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-    @import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap');
-            
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
-    
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap') ;
-
-
-
-    :root{
-        --principal:'Oleo Script Swash Caps', system-ui;
-  --tudo:'Roboto', sans-serif;
-  --serif2: "Noto Serif", serif;
-
-  --Bungee: "Bungee", sans-serif;
-
-    }
-    *{
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;   
-    font-family: var(--tudo);
-
-}
-header{
-
-color: beige;
-background-color: rgba(95, 12, 37, 0.603); 
-font-family: var(--Bungee);
-font-size: 10px;
-
-}
-nav{
-font-family: var(--Bungee);
-font-size: 12px;
-margin-top: 2%;
-color: beige;
-
-
-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
-}
-nav ul{
-color: beige;
-padding: 2%;
-width: 100%;
-list-style: none;
-display: flex;
-justify-content: flex-end;
-align-items: center;
-}
-nav li{
-color: beige;
-height: 50px;
-}
-nav a{
-color: beige;
-height: 100%;
-padding: 0 89px;
-text-decoration: none;
-display: flex;
-align-items: center;
-font-weight: 100%;
-font-size: 14px;
-font-family: var(--Bungee);
-
-}
-nav a:hover{
-
-background-color: #46232362;
-}
-nav li:first-child{
-margin-right: auto;
-}
-.sidebar{
-position: fixed;
-top: 0; 
-right: 0;
-height: 100vh;
-width: 250px;
-background-color: rgba(59, 39, 39, 0.308);
-backdrop-filter: blur(12px);
-box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
-list-style: none;
-display: none;
-flex-direction: column;
-align-items: flex-start;
-justify-content: flex-start;
-}
-.sidebar li{
-
-
-width: 100%;
-}
-.sidebar a{
-
-width: 100%;
-}
-.menu-button{
-font-family: var(--Bungee);
-display: none;
-}
-@media(max-width: 800px){
-.hideOnMobile{
-  display: none;
-}
-.menu-button{
-  display: block;
-}
-}
-@media(max-width: 400px){
-.sidebar{
-  width: 100%;
-}
-}
-
-.logo-lotus{
-  color: beige;
-
-  width: 100px;
-
-
-}
-        body{
-            background-image:url(imagens-p2/dimitri-iakymuk-mCR10j_B6sM-unsplash.png);
-            background-size: cover;
-            overflow-x: hidden;
-         
-        }
-
-        main{
-            
-            
-        }
-        section{
-            flex-wrap: wrap;
-            overflow: hidden;
-            justify-content: center;
-            align-items: center;
-           
-            width:100%;
-            height:auto;
-          
-
-        }
-        .propriedades{
-            
-            flex-wrap: wrap;
-            display: flex;
-            margin: 5%;
-            
-
-        }
-        .imagem{
-
-            margin: auto;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 500px;
-            height: 400px;
-            background-color: rgb(31, 105, 170);
-            background-image: url(imagens-p2/casa3.jpg);
-            background-size: cover;
-            background-position: center;
-            border-radius: 4%;
-        }
-
-        .imagem2{
-
-            margin: auto;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 500px;
-            height: 400px;
-            background-color: rgb(31, 105, 170);
-            background-image: url(imagens-p2/casa2.jpg);
-            background-size: cover;
-            background-position: center;
-            border-radius: 4%;
-            }
-        .texto{
-            margin: auto;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 600px;
-            height: 400px;
-            background-color: rgba(240, 248, 255, 0.767);
-            border-radius: 4%;
-        }
-
-        .texto > p{
-            width: 450px;
-            margin: auto;
-           
-            font-size:  25px;
-            color: rgb(106, 75, 131);
-        }
-
-        
-        
-    </style>
+      <link rel="stylesheet" href="style5.css">
 </head>
 <body>
     
@@ -261,10 +52,41 @@ display: none;
 
             <div
             class="propriedades">
-            
+            <div class="imagem2"></div>         
 <div class="texto"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laudantium non ipsam et ullam suscipit voluptates quo. Facilis dolorem sint similique dignissimos? Neque adipisci sunt sint voluptatum, at nihil facere.</p></div>
-                <div class="imagem2"></div></div>
+                </div>
         </section>
     </main>
+
+    <footer>
+      <div class="rodape">
+          <a href="#"><p>Why us?</p></a>
+          <a href="#"><p>Reviews</p></a>
+          <a href="#"><p></p>service packages</p></a>
+      </div>
+      <div  class="rodape" ><a href="#"><p>About us</p></a>
+          
+              <a href="#">service packages</a>
+              <a href="#">Us story</a>
+          
+          <a href="">
+              <p>Where are we located</p>
+          </a>
+      </div>
+      <div  class="rodape"><a href="">
+          <p>Hire us through</p>
+      </a>
+          <a href="">
+              <p>Email</p>
+          </a>
+          <a href="">
+              <p>whatsaap</p>
+          </a>
+          <a href="">
+              <p>phone</p>
+          </a>
+      
+      </div>
+      </footer>
 </body>
 </html>
