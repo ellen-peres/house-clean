@@ -140,61 +140,43 @@ display: none;
 
 h1{
   text-align: center;
+  margin: auto;
 }
 .text-image{
   background-image: url(assets/img/lotus_abstract_illustration_by_sanshow_dgpl19v-fullview.jpg);
 background-repeat: no-repeat;
 background-size: cover;
-width: 100vw;
 height: 100vh;
 
 
 }
 
-.inside-text {
-  background-color: rgba(236, 236, 236, 0.62);
-  color: rgb(255, 255, 255);
-  width: 50vw;
-  padding: 30px;
-  text-align: justify;
-  
- 
-  
-  border-radius:8px 30px 8px 80px ;
-   
-}
-
-@media(max-width: 400px){
-   .inside-text{
-    color: white;
-    width: 100vw;
-    padding-right: 10%;
-    
-   }
-
-   .text-image{
-    width: 100vw;
-   
-    margin: auto;
-    padding-left: block;
-    
-    background-color: rgb(63, 44, 15);
-   }
-   
-   
-   
-  }
 
 
- 
 
 section{
-  padding-top: 20vh;
- 
-  padding-left: 10vh;
- 
+
+  padding-left: 30px;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
 }
 
+.inside-text > p{
+  background-color: rgba(236, 236, 236, 0.62);
+  color: rgb(255, 255, 255);
+  padding: 30px;
+  width: 600px;
+  text-align: justify;
+   border-radius:8px 30px 8px 80px ;
+   
+}
+
+
+@media(max-width: 400px){
+  .inside-text > p{
+    width: 300px;
+  }
+}
 span{
   
   font-size: 200%;
@@ -205,7 +187,7 @@ span{
 
 .organizar-a-casa{
   margin: auto;
-  width: 500px;
+  width: 400px;
   padding: 10%;
 
 }
@@ -238,7 +220,7 @@ span{
   font-size: 3em;
 }
 .pink-frasco{
-  width:300px ;
+  width:500px ;
 }
 
 .why-hire-us{
