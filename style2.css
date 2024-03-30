@@ -24,92 +24,65 @@
 *{  
 margin: 0;
 padding: 0;
-font-family: var(--serif2);
-
 
 
 box-sizing: border-box;
-
-body{
-
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  font-family: var(--Bungee);
-  
-  width: 100vw;
-  overflow-x: hidden;
-
 }
+
+
+
+
 body{
+
 overflow-x: hidden;
-
 min-height: 100vh;
-
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-
+font-family:var(--serif2);
+background-color: bisque;
 
 }
 
 main{
-background-image:url();
-background-attachment: fixed;
-background-position: center;
-background-size: cover;
-}
-
-
-
-
-header{
-
-color: beige;
-
-font-family: var(--Bungee);
-font-size: 10px;
 
 }
+
+
+
+
 nav{
-  font-size: 11%;
-  font-weight: 900;
-  background-color: #ffffff13;
 font-family: var(--Bungee);
-font-size: 12px;
+font-size: 11px;
+text-transform: uppercase;
+font-weight: 900;
 margin-top: 2%;
-color: beige;
+color: rgb(255, 255, 12);
+backdrop-filter: blur(12px);
 
-
-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+background-color: rgba(240, 248, 255, 0.041);
+box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.171);
 }
 nav ul{
-color: beige;
+color: rgb(87, 87, 7);
 padding: 2%;
 width: 100%;
 list-style: none;
 display: flex;
 justify-content: flex-end;
 align-items: center;
-font-weight: 100%
+font-weight: 900;
 }
 nav li{
-color: beige;
+color: rgb(70, 70, 11);
 height: 50px;
-font-weight: 100%
+font-weight: 900;
 }
 nav a{
-  font-weight: 900;
-color: rgb(192, 103, 181);
+color: beige;
 height: 100%;
-padding: 0 90px;
+padding: 0 85px;
 text-decoration: none;
 display: flex;
 align-items: center;
-text-transform: uppercase;
- font-size: 89%;
+font-weight: 900;
 
 }
 nav a:hover{
@@ -120,8 +93,7 @@ nav li:first-child{
 margin-right: auto;
 }
 .sidebar{
-  position: fixed;
-
+position: fixed;
 top: 0; 
 right: 0;
 height: 100vh;
@@ -136,12 +108,9 @@ align-items: flex-start;
 justify-content: flex-start;
 }
 .sidebar li{
-
-
 width: 100%;
 }
 .sidebar a{
-
 width: 100%;
 }
 .menu-button{
@@ -165,140 +134,114 @@ display: none;
 .logo-lotus{
   color: beige;
 
-  width: 100px;
+  width: 100px;}
+
+
+
+h1{
+  text-align: center;
+}
+.text-image{
+  background-image: url(assets/img/lotus_abstract_illustration_by_sanshow_dgpl19v-fullview.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+width: 100vw;
+height: 100vh;
 
 
 }
 
-
-
+.inside-text {
+  background-color: rgba(236, 236, 236, 0.62);
+  color: rgb(255, 255, 255);
+  width: 50vw;
+  padding: 30px;
+  text-align: justify;
   
+ 
   
+  border-radius:8px 30px 8px 80px ;
+   
+}
 
-.fundo{
-    width: 900px;
-    height: 1000px;
-     background-color: #49466F;
-  
+@media(max-width: 400px){
+   .inside-text{
+    color: white;
+    width: 100vw;
+    padding-right: 10%;
+    
+   }
+
+   .text-image{
+    width: 100vw;
+   
+    margin: auto;
+    padding-left: block;
+    
+    background-color: rgb(63, 44, 15);
+   }
+   
+   
+   
   }
-  .logo{
-     margin-top: -50px;
-     width: 150px;
-  }
-
-  .logo-lotus{
-    color: beige;
-    
-    width: 100px;
-    
-    
-    }
-
 
 
  
-.why-hire-us{
-  background-image: url(assets/img/Design\ sem\ nome-fotor-bg-remover-20240328234833\ 1.png);
-  width: 100vw;
-  height: 100vh;
 
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-
-.why-hire-us > h1{
-  position: absolute;
-  top: 50%;
-  right: 35%;
-  margin: auto;
-  font-size: 300%;
-  color: rgb(30, 89, 54);
-}
-
-.cx > p  {
-
-  background-color: rgba(254, 255, 225, 0.556);
-  backdrop-filter: blur(12px);
-  padding: 7%;
-  border-radius: 8px 30px 8px 80px;
-}
-
-.cx > h1{
-  background-color: rgba(254, 255, 225, 0.556);
-  backdrop-filter: blur(12px);
-  padding: 7%;
-  border-radius: 8px 30px 8px 80px;
-
-}
-.cx  {
-  top: 30%;
-  left: 10%;
-  position: absolute;
-  
-  
-  width: 600px;
-  height: 00px;
-}
-
-
-
-
-.leaves-back{
-  background-image: url(assets/img/lotus_abstract_illustration_by_sanshow_dgpl19v-fullview.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  width: 100vw;
-  height: 100vh;
-  position: relative;
-}
-
-.cx2{
-  background-color: antiquewhite;
-padding-top:10% ;
-  margin: auto;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.organizar-a-casa{
-  width: 400px;
-  height: 400px;
-  margin-right:10% ;
-}
-
-.cx2 > p{
-    margin: auto;
-}
-
-.txt > p {
-  padding:10% ;
-  width: 400px;
+section{
+  padding-top: 20vh;
+ 
+  padding-left: 10vh;
+ 
 }
 
 span{
+  
   font-size: 200%;
-  font-weight: 900;
-  color: rgb(230, 194, 151);
+
+  color: rgb(197, 66, 110);
+  
 }
 
+.organizar-a-casa{
+  margin: auto;
+  width: 500px;
+  padding: 10%;
+
+}
+
+.cx2{
+  display: flex;
+ background-color: beige;
+ margin: 10%;
+
+}
+
+.cx2 > p{
+  width: 500px;
+  margin: 10%;
+}
 
 @media(max-width: 800px){
-  .cx{
-     top: 10%;
-     width: 50%;
+  .cx2{
+    display: block;
   }
-  .why-hire-us > image{
-    display: none;
+  span{
+    font-size: 2em;
   }
+}
 
-  .pink-frasco{
-    display: none;
-  }
-  }
-  @media(max-width: 400px){
-  .cx > p{
-    font-size: 20%;
-  }
+.why-hire-us > h1{
+  color: rgb(23, 119, 71);
+  text-transform: uppercase;
+  margin-top: 10%;
+  font-size: 3em;
+}
+.pink-frasco{
+  width:300px ;
+}
+
+.why-hire-us{
+  display: flex;
+  margin: auto;
+}
