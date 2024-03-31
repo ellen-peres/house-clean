@@ -121,7 +121,7 @@ width: 100%;
 font-family: var(--Bungee);
 display: none;
 }
-@media(max-width: 800px){
+@media(max-width: 1090px){
 .hideOnMobile{
   display: none;
 }
@@ -174,7 +174,7 @@ display: none;
 
 .cx2{
   margin: auto;
-  padding: 10%;
+  padding-top: 15%;
  
 
 }
@@ -216,12 +216,16 @@ footer{
   
   }
 
+
+  
+
   .rodape{
     margin: 2%;
   }
   .rodape > a {
   text-decoration: none;
   color: #49466F;
+  padding: 5%;
   margin: 4%;
   }
   .rodape > a:hover{
@@ -229,4 +233,12 @@ footer{
   color:black;
   } 
   
+.tentativa{
+  width: 100%;
+  height: 100%;
+  background-image: url(imagens/fundo.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  
+  }
  
