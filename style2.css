@@ -37,9 +37,13 @@ body{
 overflow-x: hidden;
 min-height: 100vh;
 font-family:var(--serif2);
-background-color: bisque;
+background-color: antiquewhite;
 
-}
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;}
+ 
 
 main{
 
@@ -57,7 +61,7 @@ margin-top: 2%;
 color: rgb(255, 255, 12);
 backdrop-filter: blur(12px);
 
-background-color: rgba(240, 248, 255, 0.041);
+background-color: rgba(41, 108, 110, 0.571);
 box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.171);
 }
 nav ul{
@@ -76,7 +80,7 @@ height: 50px;
 font-weight: 900;
 }
 nav a{
-color: beige;
+  color: rgb(147, 42, 147);
 height: 100%;
 padding: 0 85px;
 text-decoration: none;
@@ -132,98 +136,97 @@ display: none;
 }
 
 .logo-lotus{
-  color: beige;
+  color: rgb(211, 211, 211);
 
   width: 100px;}
 
-
-
-h1{
+.h1-h1{
   text-align: center;
-  margin: auto;
-}
-.text-image{
-  background-image: url(assets/img/lotus_abstract_illustration_by_sanshow_dgpl19v-fullview.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-height: 100vh;
+  margin: 3%;
+  font-size: 400%;
+  color: rgb(147, 42, 147) ;
+  font-weight: 900;}
 
+  .tudo{
+    padding-top: 3%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin: auto;
+    background-color: antiquewhite;
+    }
 
-}
-
-
-
-
-section{
-
-  padding-left: 30px;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
-}
-
-.inside-text > p{
-  background-color: rgba(236, 236, 236, 0.62);
-  color: rgb(255, 255, 255);
-  padding: 30px;
-  width: 600px;
-  text-align: justify;
-   border-radius:8px 30px 8px 80px ;
-   
-}
-
-
-@media(max-width: 400px){
-  .inside-text > p{
-    width: 300px;
+  .tudo-p{
+    margin: auto;
+    width: 500px;
+    padding: 4%;
+    text-align: justify;
   }
-}
-span{
-  
-  font-size: 200%;
 
-  color: rgb(197, 66, 110);
-  
-}
 
-.organizar-a-casa{
+
+
+.cozinha{
   margin: auto;
-  width: 400px;
-  padding: 10%;
-
+  width:60%;
 }
+
+
 
 .cx2{
-  display: flex;
- background-color: beige;
- margin: 10%;
-
-}
-
-.cx2 > p{
-  width: 500px;
-  margin: 10%;
-}
-
-@media(max-width: 800px){
-  .cx2{
-    display: block;
-  }
-  span{
-    font-size: 2em;
-  }
-}
-
-.why-hire-us > h1{
-  color: rgb(23, 119, 71);
-  text-transform: uppercase;
-  margin-top: 10%;
-  font-size: 3em;
-}
-.pink-frasco{
-  width:500px ;
-}
-
-.why-hire-us{
-  display: flex;
   margin: auto;
+  padding: 10%;
+ 
+
 }
+.cx2 > p{
+  margin: auto;
+  text-align: justify;
+   padding: 15%;
+    width: 85vw;
+    background-color: rgb(35, 130, 124);
+   
+ 
+}
+
+span{
+  color: rgb(147, 42, 147);
+  font-size: 180%;
+  font-weight: 900;}
+.span2{
+  color:rgb(147, 42, 147);
+  font-weight: 900;
+}
+
+
+  
+
+  
+footer{
+  flex-wrap: wrap;
+  background-color: rgba(255, 255, 255, 0.412);
+  backdrop-filter: blur(12px);
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  flex-wrap: wrap;
+  margin-top: 20%;
+  margin-bottom: 4%;
+  text-decoration: none;
+  padding: 5%;
+  
+  }
+
+  .rodape{
+    margin: 2%;
+  }
+  .rodape > a {
+  text-decoration: none;
+  color: #49466F;
+  margin: 4%;
+  }
+  .rodape > a:hover{
+  text-decoration: underline;
+  color:black;
+  } 
+  
+ 

@@ -6,6 +6,7 @@
           
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap') ;
@@ -26,77 +27,67 @@ padding: 0;
 
 
 box-sizing: border-box;
-font-family: var(--tudo);
+}
+
+
+
 
 body{
+
+overflow-x: hidden;
+min-height: 100vh;
+font-family:var(--serif2);
+background-color: antiquewhite;
+
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;}
  
-    background-image: url(imagens-p2/cheng-feng-BP-Q-Z0Ua9Y-unsplash.jpg);
-    background-attachment: fixed;
-    backdrop-filter:blur(7px) ;
-    background-position:  center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow-x: hidden;
-    backdrop-filter: saturate(80%);
-}
- 
 
+main{
 
-
-
-
-
-
-header{
-   padding: 4%;
-   text-align: center;
-   margin-top: 1%;
-   width: 100vw;
-  align-items: center;
-   background-color: rgba(245, 248, 255, 0.363);
-    margin-bottom: 2%;
 }
 
 
-
-       
-     
 
 
 nav{
+  background-attachment: fixed;
 font-family: var(--Bungee);
-font-size: 12px;
+font-size: 11px;
+text-transform: uppercase;
+font-weight: 900;
 margin-top: 2%;
-color: rgb(255, 255, 255);
+color: rgb(255, 255, 12);
+backdrop-filter: blur(12px);
 
-
-
-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+background-color: rgba(41, 108, 110, 0.571);
+box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.171);
 }
 nav ul{
-    color: rgb(119, 100, 204);
+color: rgb(87, 87, 7);
 padding: 2%;
 width: 100%;
 list-style: none;
 display: flex;
 justify-content: flex-end;
 align-items: center;
+font-weight: 900;
 }
 nav li{
-color: beige;
+color: rgb(70, 70, 11);
 height: 50px;
+font-weight: 900;
 }
 nav a{
-  font-weight: 900;
-  text-transform: uppercase;
-  font-size: 9px;
-  color: rgb(255, 255, 255);
+  color: rgb(147, 42, 147);
 height: 100%;
-padding: 0 90px;
+padding: 0 85px;
 text-decoration: none;
 display: flex;
 align-items: center;
-
+font-weight: 900;
 
 }
 nav a:hover{
@@ -122,12 +113,9 @@ align-items: flex-start;
 justify-content: flex-start;
 }
 .sidebar li{
-
-
 width: 100%;
 }
 .sidebar a{
-
 width: 100%;
 }
 .menu-button{
@@ -149,107 +137,138 @@ display: none;
 }
 
 .logo-lotus{
-  color: beige;
-width: 100px;
-}
+  color: rgb(211, 211, 211);
+
+  width: 100px;}
 
 
 
+        body{
+          background-color: antiquewhite;
+            background-size: cover;
+            overflow-x: hidden;
+             background-attachment: fixed;
+             font-family:var(--serif2);
+         
+        }
 
-.b1{
-  margin-top: 5%;
- 
-  position: relative;
-  width: 100vw;
-  height: 100vh;
+        main{
+            
+            
+        }
+        section{
+            flex-wrap: wrap;
+            overflow: hidden;
+            justify-content: center;
+            align-items: center;
+           
+            width:100%;
+            height:auto;
+          
+
+        }
+        .propriedades{
+            
+            flex-wrap: wrap;
+            display: flex;
+            margin: 5%;
+            
+
+        }
+        .imagem{
+
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 500px;
+            height: 400px;
+          
+            background-image: url(assets/img/Component\ 5.png);
+            background-size: cover;
+            background-position: center;
+            
+        }
+
+        .imagem2{
+
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 500px;
+            height: 400px;
+            padding-bottom: 5%;
+            padding-top: 5%;
+            background-image: url(assets/img/Component\ 6spray-cidade.png);
+            background-size: cover;
+            background-position: center;
+      
+            }
+        .texto{
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 3%;
+            background-color: rgba(240, 248, 255, 0.767);
+            border-radius: 4%;
+            text-align: justify;
+            
+    
+        }
+
+        .texto > p{
+            width: 450px;
+            padding: 5%;
+            margin: auto;
+           
+            font-size:  1em;
+            color: rgb(106, 75, 131);
+        }
+@media screen and (max-width:500px) {
+  .texto >p{
+    width: 300px;
+  }
   
 }
 
-.maior{
-  margin-left:5% ;
-  padding-top:10% ;
+        footer{
+          flex-wrap: wrap;
+          background-color: rgba(255, 255, 255, 0.412);
+          backdrop-filter: blur(12px);
+          display: flex;
+          justify-content: space-around;
+          position: relative;
+          flex-wrap: wrap;
+          margin-top: 20%;
+          margin-bottom: 4%;
+          text-decoration: none;
+          padding: 5%;
+          
+          }
+        
+          .rodape{
+            margin: 2%;
+          }
+          .rodape > a {
+          text-decoration: none;
+          color: #49466F;
+          margin: 4%;
+          }
+          .rodape > a:hover{
+          text-decoration: underline;
+          color:black;
+          } 
+          
+         
 
-  background-color: rgb(222, 0, 170);
-  width: 60vw;
-  height: 60vh;
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/2e/Gaithersburg%2C_Maryland.jpg);
-  background-position: center;
-  background-size: cover;
-  box-shadow: 4px 10px 10px rgba(0, 0, 0, 0.448);
-  
-}
-
-.menor{
-  top: 10%;
-  right: 0%;
-  left:50% ;
-position: absolute;
-width: 500px;
-background-color: rgb(255, 255, 255);
-box-shadow: 4px 10px 10px rgba(0, 0, 0, 0.448);
-}
-
-.maior2{
-  margin-left:40% ;
-  
-
-  background-color: rgb(222, 0, 170);
-  width: 60vw;
-  height: 60vh;
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/9b/Downtown_Gaithersburg%2C_Maryland%2C_2014.jpg);
-  background-position: center;
-  background-size: cover;
-  box-shadow: 4px 10px 10px rgba(0, 0, 0, 0.448);
-  
-}
-
-.menor2{
-  top: 10%;
-  right: 0%;
-  left:20% ;
-position: absolute;
-width: 500px;
-background-color: rgb(255, 255, 255);
-box-shadow: 4px 10px 10px rgba(0, 0, 0, 0.448);
-}
-
-
-
-h1{
-  margin-top: 10%;
-  text-align: center;
-  color: white;
-  text-transform: uppercase;
-  font-size: 700%;
-}
-
-footer{
-    flex-wrap: wrap;
-    background-color: rgba(255, 255, 255, 0.651);
-    display: flex;
-    justify-content: space-around;
-    
-    flex-wrap: wrap;
-    margin-top: 20%;
-    margin-bottom: 4%;
-    text-decoration: none;
-    padding: 5%;
-    
-    }
-    .rodape > a {
-    text-decoration: none;
-    color: #49466F;
-    }
-    .rodape > a:hover{
-    text-decoration: underline;
-    color:black;
-    } 
-    
-    .tentativa{
-    width: 100%;
-    height: 100%;
-    background-image: url(imagens/fundo.png);
-    background-repeat: no-repeat;
-    background-position: top center;
-    
-    }
+          span{
+            color: rgb(147, 42, 147);
+            font-size: 180%;
+            font-weight: 900;}
+          .span2{
+            color:rgb(147, 42, 147);
+            font-weight: 900;
+          }
+          
